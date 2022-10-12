@@ -35,4 +35,4 @@ jobs:
       run: |
         pipenv run nosetests
       env:
-        DATABASE_URL: postgresql://postgres:postgres@localhost/twitter_api_test
+        DATABASE_URL: postgresql://postgres:postgres@localhost/twitter_api
